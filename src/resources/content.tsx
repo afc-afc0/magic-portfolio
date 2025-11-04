@@ -184,7 +184,7 @@ const blog: Blog = {
 const work: Work = {
   path: "/work",
   label: "App",
-  title: `TimeFlies iOS App`,
+  title: `TimeFlies Mobile App`,
   description: `Experience the joy of rediscovering your own life through delayed gratification`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
