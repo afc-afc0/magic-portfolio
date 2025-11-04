@@ -41,7 +41,7 @@ export default async function RootLayout({
         fonts.heading.variable,
         fonts.body.variable,
         fonts.label.variable,
-        fonts.code.variable,
+        fonts.code.variable
       )}
     >
       <head>
@@ -102,6 +102,7 @@ export default async function RootLayout({
             `,
           }}
         />
+        <meta name="apple-itunes-app" content="app-id=6752573820" />
       </head>
       <Providers>
         <Column

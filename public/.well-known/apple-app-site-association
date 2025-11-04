@@ -1,11 +1,15 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "2T8LW48T67.com.myhtra.timeflies",
-                "paths": [
-                    "/share/*"
+                "appIDs": [
+                    "2T8LW48T67.com.myhtra.timeflies"
+                ],
+                "components": [
+                    {
+                        "/": "/share/*",
+                        "comment": "Matches any URL whose path starts with /share/"
+                    }
                 ]
             }
         ]
