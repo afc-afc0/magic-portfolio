@@ -20,7 +20,7 @@ export async function generateMetadata({
     openGraph: {
       title: "Shared Memory - Timeflies",
       description: "Check out this photo shared with you",
-      type: "website",
+      type: "article",
     },
     twitter: {
       card: "summary_large_image",
