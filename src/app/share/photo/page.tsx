@@ -2,13 +2,14 @@
 import { Metadata } from "next";
 
 type Props = {
-  searchParams: { token?: string };
+  searchParams: Promise<{ token?: string }>;
 };
 
 export async function generateMetadata({
   searchParams,
 }: Props): Promise<Metadata> {
-  const token = searchParams.token;
+  const params = await searchParams;
+  const token = params.token;
 
   // Optionally fetch photo details based on token
   // const photoData = await fetchPhotoData(token)
@@ -41,6 +42,7 @@ export async function generateMetadata({
   };
 }
 
-export default function PhotoPage({ searchParams }: Props) {
+export default async function PhotoPage({ searchParams }: Props) {
+  const params = await searchParams;
   return <div>{/* Your photo component */}</div>;
 }
