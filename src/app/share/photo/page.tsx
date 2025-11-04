@@ -20,14 +20,6 @@ export async function generateMetadata({
     openGraph: {
       title: "Shared Photo - Timeflies",
       description: "Check out this photo shared with you",
-      images: [
-        {
-          url: "https://time-files.co/api/photo-preview?token=" + token,
-          width: 1200,
-          height: 630,
-          alt: "Shared photo preview",
-        },
-      ],
       type: "website",
     },
     twitter: {
