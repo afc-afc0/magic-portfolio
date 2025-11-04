@@ -18,7 +18,7 @@ export async function generateMetadata({
     title: "Shared Memory - Timeflies",
     description: "Check out this memory shared with you on Timeflies",
     openGraph: {
-      title: "Shared Photo - Timeflies",
+      title: "Shared Memory - Timeflies",
       description: "Check out this photo shared with you",
       type: "website",
     },
