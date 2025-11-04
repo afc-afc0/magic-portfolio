@@ -7,21 +7,10 @@
                 ],
                 "components": [
                     {
-                        "/": "/share/*",
-                        "comment": "Matches any URL whose path starts with /share/"
+                        "/": "/share/*"
                     }
                 ]
             }
-        ]
-    },
-    "activitycontinuation": {
-        "apps": [
-            "2T8LW48T67.com.myhtra.timeflies"
-        ]
-    },
-    "webcredentials": {
-        "apps": [
-            "2T8LW48T67.com.myhtra.timeflies"
         ]
     }
 }
