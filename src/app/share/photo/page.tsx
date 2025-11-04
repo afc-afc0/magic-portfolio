@@ -1,40 +1,24 @@
 // app/share/photo/page.tsx
-import { Metadata } from "next";
+import { baseURL } from "@/resources";
+import { sharePhoto } from "@/resources/content";
+import { Flex, Meta, Text } from "@once-ui-system/core";
 
-type Props = {
-  searchParams: Promise<{ token?: string }>;
-};
-
-export async function generateMetadata({
-  searchParams,
-}: Props): Promise<Metadata> {
-  const params = await searchParams;
-  const token = params.token;
-
-  // Optionally fetch photo details based on token
-  // const photoData = await fetchPhotoData(token)
-
-  return {
-    title: "Shared Memory - Timeflies",
-    description: "Check out this memory shared with you on Timeflies",
-    openGraph: {
-      title: "Shared Memory - Timeflies",
-      description: "Check out this photo shared with you",
-      type: "article",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Shared Memory - Timeflies",
-      description: "Check out this memory shared with you",
-      images: ["https://time-files.co/api/photo-preview?token=" + token],
-    },
-    icons: {
-      icon: "/favicon.ico",
-    },
-  };
+export async function generateMetadata() {
+  return Meta.generate({
+    title: sharePhoto.title,
+    description: sharePhoto.description,
+    baseURL: baseURL,
+    image: `/api/og/generate?title=${encodeURIComponent(sharePhoto.title)}`,
+    path: sharePhoto.path,
+  });
 }
 
-export default async function PhotoPage({ searchParams }: Props) {
-  const params = await searchParams;
-  return <div>{/* Your photo component */}</div>;
+export default function Photo() {
+  return (
+    <Flex maxWidth="l">
+      <Text id="dummy" variant="heading-strong-l">
+        You have a shared photo!
+      </Text>
+    </Flex>
+  );
 }

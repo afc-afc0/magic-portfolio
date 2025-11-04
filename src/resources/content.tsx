@@ -221,4 +221,21 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+const sharePhoto = {
+  path: "/share/photo",
+  label: "Shared Memory",
+  title: "Shared Memory - TimeFlies",
+  description: "Check out this memory shared with you on TimeFlies",
+};
+
+export {
+  person,
+  social,
+  newsletter,
+  home,
+  about,
+  blog,
+  work,
+  gallery,
+  sharePhoto,
+};
