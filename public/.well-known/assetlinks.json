@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.myhtra.timeflies",
+            "sha256_cert_fingerprints": [
+                "F5:EF:DA:36:71:65:79:F8:81:FA:4A:85:E5:FA:46:62:CD:F6:B2:16:E5:F7:B8:EA:73:88:4F:1B:E5:DD:B5:9B"
+            ]
+        }
+    }
+]
