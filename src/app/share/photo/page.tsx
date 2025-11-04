@@ -17,7 +17,7 @@ export default function Photo() {
   return (
     <Flex maxWidth="l">
       <Text id="dummy" variant="heading-strong-l">
-        You have a shared photo!
+        You have a shared memory!
       </Text>
     </Flex>
   );
