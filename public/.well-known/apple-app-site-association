@@ -1,0 +1,23 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "2T8LW48T67.com.myhtra.timeflies",
+                "paths": [
+                    "/share/*"
+                ]
+            }
+        ]
+    },
+    "activitycontinuation": {
+        "apps": [
+            "2T8LW48T67.com.myhtra.timeflies"
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "2T8LW48T67.com.myhtra.timeflies"
+        ]
+    }
+}
