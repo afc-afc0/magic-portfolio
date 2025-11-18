@@ -22,14 +22,23 @@ import {
   PiImageDuotone,
 } from "react-icons/pi";
 
-import {
-  SiJavascript,
-  SiNextdotjs,
-  SiFigma,
-  SiSupabase,
-} from "react-icons/si";
+import { SiJavascript, SiNextdotjs, SiFigma, SiSupabase } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaX,
+  FaThreads,
+  FaXTwitter,
+  FaFacebook,
+  FaPinterest,
+  FaWhatsapp,
+  FaReddit,
+  FaTelegram,
+  FaAndroid,
+} from "react-icons/fa6";
+import { FaAppleAlt } from "react-icons/fa";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -63,6 +72,8 @@ export const iconLibrary: Record<string, IconType> = {
   whatsapp: FaWhatsapp,
   reddit: FaReddit,
   telegram: FaTelegram,
+  apple: FaAppleAlt,
+  android: FaAndroid,
 };
 
 export type IconLibrary = typeof iconLibrary;

@@ -44,7 +44,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
   title: `TimeFlies App`,
   description: `Turn forgotten moments into future surprises`,
