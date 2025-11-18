@@ -44,7 +44,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.png",
+  image: "/images/og/home.jpg",
   label: "Home",
   title: `TimeFlies App`,
   description: `Turn forgotten moments into future surprises`,
@@ -226,6 +226,7 @@ const sharePhoto = {
   label: "Shared Memory",
   title: "Shared Memory - TimeFlies",
   description: "Check out this memory shared with you on TimeFlies",
+  image: "/images/avatar.png",
 };
 
 export {
