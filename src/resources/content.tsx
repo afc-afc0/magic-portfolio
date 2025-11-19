@@ -224,7 +224,7 @@ const gallery: Gallery = {
 const sharePhoto = {
   path: "/share/photo",
   label: "Shared Memory",
-  title: "Shared Memory - TimeFlies",
+  title: "Shared Memory - TimeFlies App",
   description: "Check out this memory shared with you on TimeFlies",
   image: "/images/avatar.png",
 };
