@@ -34,7 +34,7 @@ export default function Photo() {
         </Flex>
 
         {/* Download Buttons */}
-        <Flex gap="16">
+        <Flex gap="16" direction="column">
           {/* iOS Button */}
           <Button
             prefixIcon={"apple"}
